@@ -49,6 +49,7 @@ fetch('json/images.json').then(function(response) {
           
           var divCol = document.createElement('div');
           divCol.class = "on-bottom";
+          divCaption.innerText = "fhghghjhjgjg";
           
   
           //Carousel Button
@@ -58,7 +59,7 @@ fetch('json/images.json').then(function(response) {
           cButton.setAttribute("data-bs-target","#demo");
           cButton.setAttribute("data-bs-slide-to",i);
           if(i==0){
-              cButton.setAttribute("class","active");;
+              cButton.setAttribute("class","active");
           }
           divButton.appendChild(cButton);
   
