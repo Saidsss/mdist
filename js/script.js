@@ -45,11 +45,7 @@ fetch('json/images.json').then(function(response) {
           divCard.appendChild(divCardBody);
           divCol.appendChild(divCard);
           gallery.appendChild(divCol); 
-          
-          
-          var divCol = document.createElement('div');
-          divCol.class = "on-bottom";
-          divCaption.innerText = "fhghghjhjgjg";
+        
           
   
           //Carousel Button
