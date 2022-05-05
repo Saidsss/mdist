@@ -6,7 +6,7 @@ fetch('json/images.json').then(function(response) {
   
       var hCaption = document.createElement('h1'); 
       //<h1>This is the Gallery Page</h1>
-      hCaption.innerText = "This is the Gallery Page";
+      hCaption.innerText = "Gallery";
       header.appendChild(hCaption);
   
       for(var i=0; i < json.Images.length; i++){
