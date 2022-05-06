@@ -9,6 +9,10 @@ body{
     padding-top: 20px; 
     margin-left: 20ch; 
 }
+.descroption{
+    margin-left: 20px;
+
+}
 .navbar{
     background-color: rgba(194, 194, 194, 0.911);
 }
