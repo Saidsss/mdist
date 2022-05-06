@@ -1,0 +1,167 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+     background-color: rgba(209, 209, 209, 0.918); 
+}
+.navbar-brand img{
+    width: 100px;
+}
+.CV{
+    text-align: center;
+}
+.bottom{ 
+    padding-top: 20px; 
+    margin-left: 20ch; 
+}
+.descroption{
+   margin: 20px;
+
+}
+.navbar{
+    background-color: rgba(194, 194, 194, 0.911);
+}
+
+
+.ul-nav{
+    justify-content: space-between;
+    width: 85%;
+}
+
+.navbar p{
+    color: rgb(0, 0, 0);
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+}
+.top_box p{
+    color: rgb(0, 0, 0);
+}
+.top_box h1{
+    color: rgb(0, 0, 0);
+}
+.section_col p{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.position{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.location{
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.next_box{
+    color: rgb(0, 0, 0);
+}
+
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+
+.nav-link-new{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 8px;
+    font-size: 22px;
+}
+.nav-link-new:hover{
+    box-shadow: 1px 1px 20px 2px rgb(255, 255, 255);
+    transition: 0.4s;
+    padding: 6px;
+    
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: rgb(133, 136, 139);
+    color: rgb(255, 255, 255);
+}
+
+.navbar .navbar-nav .nav-link:active{
+    background-color: rgb(113, 116, 119);
+    color: rgb(255, 254, 254);
+    font-weight: bold; }
+
+.intro{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+}
+
+
+
+.b_image{
+    background-image: url(../img/said.jpg);
+    width: 90%;
+    height: 450px;
+    padding: 25px 5px 5px 5px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.b_image p{
+    margin-top: 10px;
+}
+
+.name{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.position{
+    font-size: 70px;   
+}
+
+.location{
+    font-size: 65px; 
+    color: rgb(0, 0, 0);
+}
+.dis_cntt{
+    justify-content: space-between;
+    display: flex;
+}
+
+.description{
+    font-size: 20px;
+    text-align: center;
+}
+
+.text_total{
+    float: left;
+    list-style: none;
+    font-family: 'Water Brush', cursive;
+    font-size: 50px;
+    
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+.b_image{
+    
+    width: 300px;
+    height: 350px;
+}
+
+@media(max-width:756px) {
+    .position{
+        font-size: 35px;
+        text-align: center;    
+    }
+    
+    .location{
+        font-size: 30px;
+        text-align: center;   
+        color: rgb(0, 215, 253); 
+    }
+
+    .intro img{
+        width: 400px;
+        border-radius: 50%;
+        border: 3px solid rgb(0, 195, 255);
+        overflow: hidden;
+    }
+}
