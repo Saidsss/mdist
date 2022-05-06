@@ -5,6 +5,10 @@ body{
 .navbar-brand img{
     width: 100px;
 }
+.bottom{ 
+    padding-top: 20px; 
+    margin-left: 20ch; 
+}
 .navbar{
     background-color: rgba(194, 194, 194, 0.911);
 }
