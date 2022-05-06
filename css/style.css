@@ -5,6 +5,10 @@ body{
 .navbar-brand img{
     width: 100px;
 }
+.CV{
+    text-allign: center;
+
+}
 .bottom{ 
     padding-top: 20px; 
     margin-left: 20ch; 
